@@ -14,7 +14,7 @@ body {
 .todo-wrapper {
     background: white;
     padding: 3rem;
-    margin: 3rem;
+    margin: 3rem auto;
     width: min(60rem, 90%);
     border-radius: .5rem;
 }
@@ -38,6 +38,7 @@ ol {
 li {
     margin: .5rem 0;
     padding: .5rem;
+    user-select: none;
 }
 
 li:nth-child(even) {
@@ -64,4 +65,12 @@ li:nth-child(even) {
     border: 1px solid coral;
     background: white;
     transition: all .5s ease;
+}
+
+#add-button {
+    display: inline-block;
+}
+
+#input[type=text] {
+    display: inline-block;
 }
