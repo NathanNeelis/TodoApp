@@ -57,6 +57,7 @@ li:nth-child(even) {
     border: 1px solid white;
     background: coral;
     transition: all .5s ease;
+    color: white;
 
 }
 
@@ -71,6 +72,11 @@ li:nth-child(even) {
     display: inline-block;
 }
 
-#input[type=text] {
+form {
     display: inline-block;
+}
+
+input[type=text] {
+    padding: .4rem 0;
+    width: 40vw;
 }
