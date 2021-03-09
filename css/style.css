@@ -18,3 +18,50 @@ body {
     width: min(60rem, 90%);
     border-radius: .5rem;
 }
+
+.todo-wrapper h2 {
+    margin: 1rem 0 0 0;
+    font-family: 'Stick', sans-serif;
+}
+
+.todo-wrapper p {
+    color: gray;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+ol {
+    margin-left: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li {
+    margin: .5rem 0;
+    padding: .5rem;
+}
+
+li:nth-child(even) {
+    background: #ddd;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.pretty-button {
+    margin: 1rem .5rem .5rem 0;
+    padding: .5rem 2rem;
+    border-radius: .3rem;
+    border: 1px solid white;
+    background: coral;
+    transition: all .5s ease;
+
+}
+
+.pretty-button:hover {
+    color: coral;
+    border: 1px solid coral;
+    background: white;
+    transition: all .5s ease;
+}
