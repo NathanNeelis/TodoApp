@@ -4,3 +4,17 @@
     margin: 0;
     padding: 0;
 }
+
+
+body {
+    background: #cdcdcd;
+    font-family: 'Redressed', cursive;
+}
+
+.todo-wrapper {
+    background: white;
+    padding: 3rem;
+    margin: 3rem;
+    width: min(60rem, 90%);
+    border-radius: .5rem;
+}
