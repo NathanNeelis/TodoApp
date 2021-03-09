@@ -21,3 +21,14 @@ function newToDoItem(entryText) {
     toDoItem.appendChild(toDoText);
     toDoList.appendChild(toDoItem);
 }
+
+// leegmaken
+const emptyButton = document.getElementById('empty-button');
+emptyButton.addEventListener('click', emptyList);
+
+function emptyList() {
+    let toDoItems = toDoList.children;
+    while (toDoItems.length > 0) {
+        toDoItems.item(0).remove();
+    }
+}
